@@ -1,1 +1,1 @@
-# InfyTQ-Programming Fundamentals using Python course' exercises and assignments
+# InfyTQ-Programming Fundamentals using Python course' exercises and assignments @Suresh G

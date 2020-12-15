@@ -11,9 +11,7 @@ def calculate_bill_amount(gems_list, price_list, reqd_gems,reqd_quantity):
             bill_amount=-1
             break
     if bill_amount>30000:
-        bill_amount=bill_amount-(bill_amount*0.05)
-            
-                
+        bill_amount=bill_amount-(bill_amount*0.05)       
     return bill_amount
 
 #List of gems available in the store

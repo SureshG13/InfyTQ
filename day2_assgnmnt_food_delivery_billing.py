@@ -28,8 +28,7 @@ def calculate_bill_amount(food_type,quantity_ordered,distance_in_kms):
         else:
             bill_amount=-1
     else:
-        bill_amount=-1
-                
+        bill_amount=-1                
     return bill_amount
 
 #Provide different values for food_type,quantity_ordered,distance_in_kms and test your program

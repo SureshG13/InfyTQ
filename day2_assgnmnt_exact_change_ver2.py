@@ -16,7 +16,6 @@ def make_amount(rupees_to_make,no_of_five,no_of_one):
             one_needed=rupees_to_make-(five_needed*5)
             flag=1 
 
-
     # Use the below given print statements to display the output
     # Also, do not modify them for verification to work
     if flag==1:
@@ -25,7 +24,6 @@ def make_amount(rupees_to_make,no_of_five,no_of_one):
         print("No. of One needed  :", one_needed)
     else:
         print(-1)
-
 
 #Provide different values for rupees_to_make,no_of_five,no_of_one and test your program
 make_amount(100,20,5)

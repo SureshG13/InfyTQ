@@ -15,7 +15,6 @@ def calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_e
                     flag=1
                 else:
                     print("The customer is not eligible for the loan")
-                    
             elif loan_type=="House" and salary>50000:
                 if customer_emi_expected<=60 and loan_amount_expected<=6000000:
                     eligible_loan_amount=6000000

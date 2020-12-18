@@ -42,8 +42,6 @@ def generate_next_date(day,month,year):
             next_month=1 
             next_year=year+1
         
-
     print(next_day,"-",next_month,"-",next_year)
-
 
 generate_next_date(30,12,2015)

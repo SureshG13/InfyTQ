@@ -15,8 +15,7 @@ def convert_currency(amount_needed_inr,current_currency_name):
     elif current_currency_name=="Canadian Dollar":
         current_currency_amount=amount_needed_inr*0.02027
     else:
-        current_currency_amount=-1
-        
+        current_currency_amount=-1      
     return current_currency_amount
 
 #Provide different values for amount_needed_inr,current_currency_name and test your program

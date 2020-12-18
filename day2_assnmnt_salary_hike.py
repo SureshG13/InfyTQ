@@ -10,7 +10,6 @@ def find_new_salary(current_salary,job_level):
         new_salary=current_salary+(current_salary*(5/100))
     else:
         new_salary=current_salary
-
     return new_salary
 
 # provide different values for current_salary and job_level and test yor program
